@@ -10,7 +10,7 @@ body {
 
 }
 img {
-  width:300px;
+  width:210px;
 }
  .background {
             width: 100%;
@@ -51,10 +51,10 @@ img {
 
         .centered-children {
             padding: 20px;
-            border-radius: 10px;
-            max-height: 100%;
+            border-radius: 32px;
+            max-height: 80%;
             display: block;
-            background: rgba(255,255,255,1);
+            background: rgba(255, 121, 107,0.9);
         }
 a {
   text-decoration: none;
@@ -65,24 +65,24 @@ a {
   line-height: 45px;
   border-radius: 45px;
   margin: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'cursive', Comic Sans MS";
   font-size: 11px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
   font-weight: 600;
   color: #FFFFFF;
-  background: #808080;
-  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  background: #171231;
+  box-shadow: 0 8px 15px rgba(17,12,31,.5);
   transition: .3s;
 }
 a:hover {
   background: #2EE59D;
-  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  box-shadow: 0 15px 20px rgba(255,255,255,.7);
   color: white;
   transform: translateY(-7px);
 }
 
 p{
-	color:DARK;
+	color:black;
 }

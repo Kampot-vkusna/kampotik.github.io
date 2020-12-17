@@ -455,6 +455,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h3-style{
 		width:100%;
 	}
+	.container-div-style{
+		height:100px;
+	}
+	.container-div-bloc-6-style{
+		height:100px;
+	}
+	.container-div-0-style{
+		height:100px;
+	}
+	.container-div-0-bloc-6-style{
+		height:100px;
+	}
 	
 	/* Mobile Text Margin Offsets */
 	.mg-clear-xs{

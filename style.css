@@ -201,6 +201,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-left:inherit;
 	padding-right:inherit;
 }
+/* Rounded Bars Menu Icon */
+.navbar-light .menu-icon-rounded-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-dark .menu-icon-rounded-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggle.menu-icon-rounded-bars{
+	margin-top:7px!important;
+}
 /* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
 }
@@ -326,8 +336,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-gainsboro{
-	background-color:#DFDCDD;
+.bgc-antique-white{
+	background-color:#FBE9DD;
 }
 
 /* Text colour styles */
